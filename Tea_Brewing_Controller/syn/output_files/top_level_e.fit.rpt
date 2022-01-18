@@ -1,5 +1,5 @@
 Fitter report for top_level_e
-Tue Dec 21 14:46:46 2021
+Sat Jan 15 22:22:04 2022
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Tue Dec 21 14:46:46 2021       ;
+; Fitter Status                      ; Successful - Sat Jan 15 22:22:04 2022       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; top_level_e                                 ;
 ; Top-level Entity Name              ; top_level_e                                 ;
@@ -151,14 +151,14 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.09        ;
+; Average used               ; 1.07        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   2.9%      ;
-;     Processor 3            ;   2.9%      ;
-;     Processor 4            ;   2.9%      ;
+;     Processor 2            ;   2.4%      ;
+;     Processor 3            ;   2.4%      ;
+;     Processor 4            ;   2.4%      ;
 +----------------------------+-------------+
 
 
@@ -200,7 +200,7 @@ refer to the applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in D:/Personal/VHDL/Tea_Brewing_Controller/syn/output_files/top_level_e.pin.
+The pin-out file can be found in D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/syn/output_files/top_level_e.pin.
 
 
 +-------------------------------------------------------------------+
@@ -1149,31 +1149,31 @@ Info (332144): No user constrained base clocks found in the design
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
-Info (176353): Automatically promoted node cp_i~input (placed in PIN 22 (CLK0, DIFFCLK_0p)) File: D:/Personal/VHDL/Tea_Brewing_Controller/src/top_level_e.vhd Line: 10
+Info (176353): Automatically promoted node cp_i~input (placed in PIN 22 (CLK0, DIFFCLK_0p)) File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/top_level_e.vhd Line: 10
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G4
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node tsc_e:tea_bag_controller|cstate_s.process2_st File: D:/Personal/VHDL/Tea_Brewing_Controller/src/tsc_a.vhd Line: 4
-Info (176353): Automatically promoted node ata_e:acoustic_control|cstate_s.result_st  File: D:/Personal/VHDL/Tea_Brewing_Controller/src/ata_a.vhd Line: 8
+        Info (176357): Destination node tsc_e:tea_bag_controller|cstate_s.process2_st File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/tsc_a.vhd Line: 4
+Info (176353): Automatically promoted node ata_e:acoustic_control|cstate_s.result_st  File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/ata_a.vhd Line: 8
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node transmission_e:transmission|mux16_txd_e:uu2|Mux0~2 File: D:/Personal/VHDL/Tea_Brewing_Controller/src/mux16_txd_a.vhd Line: 16
-        Info (176357): Destination node transmission_e:transmission|mux16_txd_e:uu2|Mux0~7 File: D:/Personal/VHDL/Tea_Brewing_Controller/src/mux16_txd_a.vhd Line: 16
-        Info (176357): Destination node transmission_e:transmission|mux16_txd_e:uu2|Mux0~8 File: D:/Personal/VHDL/Tea_Brewing_Controller/src/mux16_txd_a.vhd Line: 16
-        Info (176357): Destination node transmission_e:transmission|mux16_txd_e:uu2|Mux0~10 File: D:/Personal/VHDL/Tea_Brewing_Controller/src/mux16_txd_a.vhd Line: 16
-        Info (176357): Destination node transmission_e:transmission|mux16_txd_e:uu2|Mux0~16 File: D:/Personal/VHDL/Tea_Brewing_Controller/src/mux16_txd_a.vhd Line: 16
-        Info (176357): Destination node transmission_e:transmission|mux16_txd_e:uu2|Mux0~18 File: D:/Personal/VHDL/Tea_Brewing_Controller/src/mux16_txd_a.vhd Line: 16
-        Info (176357): Destination node ata_e:acoustic_control|snd_led_o~0 File: D:/Personal/VHDL/Tea_Brewing_Controller/src/ata_e.vhd Line: 45
-        Info (176357): Destination node ata_e:acoustic_control|Selector30~1 File: D:/Personal/VHDL/Tea_Brewing_Controller/src/ata_a.vhd Line: 28
-        Info (176357): Destination node transmission_e:transmission|uart_ctrl_e:uu3|Selector0~0 File: D:/Personal/VHDL/Tea_Brewing_Controller/src/uart_a.vhd Line: 12
-        Info (176357): Destination node ata_e:acoustic_control|Selector23~0 File: D:/Personal/VHDL/Tea_Brewing_Controller/src/ata_a.vhd Line: 28
+        Info (176357): Destination node transmission_e:transmission|mux16_txd_e:uu2|Mux0~2 File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/mux16_txd_a.vhd Line: 16
+        Info (176357): Destination node transmission_e:transmission|mux16_txd_e:uu2|Mux0~7 File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/mux16_txd_a.vhd Line: 16
+        Info (176357): Destination node transmission_e:transmission|mux16_txd_e:uu2|Mux0~8 File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/mux16_txd_a.vhd Line: 16
+        Info (176357): Destination node transmission_e:transmission|mux16_txd_e:uu2|Mux0~10 File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/mux16_txd_a.vhd Line: 16
+        Info (176357): Destination node transmission_e:transmission|mux16_txd_e:uu2|Mux0~16 File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/mux16_txd_a.vhd Line: 16
+        Info (176357): Destination node transmission_e:transmission|mux16_txd_e:uu2|Mux0~18 File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/mux16_txd_a.vhd Line: 16
+        Info (176357): Destination node ata_e:acoustic_control|snd_led_o~0 File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/ata_e.vhd Line: 45
+        Info (176357): Destination node ata_e:acoustic_control|Selector30~1 File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/ata_a.vhd Line: 28
+        Info (176357): Destination node transmission_e:transmission|uart_ctrl_e:uu3|Selector0~0 File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/uart_a.vhd Line: 12
+        Info (176357): Destination node ata_e:acoustic_control|Selector23~0 File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/ata_a.vhd Line: 28
         Info (176358): Non-global destination nodes limited to 10 nodes
-Info (176353): Automatically promoted node tsc_e:tea_bag_controller|seconds_1_s~0  File: D:/Personal/VHDL/Tea_Brewing_Controller/src/tsc_a.vhd Line: 9
+Info (176353): Automatically promoted node tsc_e:tea_bag_controller|seconds_1_s~0  File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/tsc_a.vhd Line: 9
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
-Info (176353): Automatically promoted node rb_i~input (placed in PIN 23 (CLK1, DIFFCLK_0n)) File: D:/Personal/VHDL/Tea_Brewing_Controller/src/top_level_e.vhd Line: 9
+Info (176353): Automatically promoted node rb_i~input (placed in PIN 23 (CLK1, DIFFCLK_0n)) File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/top_level_e.vhd Line: 9
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G2
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node transmission_e:transmission|Cnt3_e:uu6|state_s.s0~0 File: D:/Personal/VHDL/Tea_Brewing_Controller/src/Cnt3_a.vhd Line: 4
-        Info (176357): Destination node led1_o~output File: D:/Personal/VHDL/Tea_Brewing_Controller/src/top_level_e.vhd Line: 19
+        Info (176357): Destination node transmission_e:transmission|Cnt3_e:uu6|state_s.s0~0 File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/Cnt3_a.vhd Line: 4
+        Info (176357): Destination node led1_o~output File: D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/src/top_level_e.vhd Line: 19
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
@@ -1190,36 +1190,36 @@ Info (176215): I/O bank details before I/O pin placement
         Info (176213): I/O bank number 6 does not use VREF pins and has undetermined VCCIO pins. 1 total pin(s) used --  8 pins available
         Info (176213): I/O bank number 7 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  12 pins available
         Info (176213): I/O bank number 8 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  12 pins available
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:03
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 2% of the available device resources in the region that extends from location X11_Y0 to location X22_Y11
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
-Info (11888): Total time spent on timing analysis during the Fitter is 0.41 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:03
+Info (11888): Total time spent on timing analysis during the Fitter is 0.76 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
-Info (144001): Generated suppressed messages file D:/Personal/VHDL/Tea_Brewing_Controller/syn/output_files/top_level_e.fit.smsg
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
+Info (144001): Generated suppressed messages file D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/syn/output_files/top_level_e.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
     Info: Peak virtual memory: 5437 megabytes
-    Info: Processing ended: Tue Dec 21 14:46:47 2021
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:11
+    Info: Processing ended: Sat Jan 15 22:22:04 2022
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:18
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in D:/Personal/VHDL/Tea_Brewing_Controller/syn/output_files/top_level_e.fit.smsg.
+The suppressed messages can be found in D:/Personal/VHDL/Tea-Bag-Controller-VHDL/Tea_Brewing_Controller/syn/output_files/top_level_e.fit.smsg.
 
 

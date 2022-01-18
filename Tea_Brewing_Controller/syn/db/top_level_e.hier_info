@@ -18,16 +18,16 @@ m0_i => tsc_e:tea_bag_controller.m0_i
 m1_i => tsc_e:tea_bag_controller.m1_i
 m2_i => tsc_e:tea_bag_controller.m2_i
 m3_i => tsc_e:tea_bag_controller.m3_i
-led1_o << rb_i.DB_MAX_OUTPUT_PORT_TYPE
-led2_o << brd_generator_e:baud_rate.sec_o
-led3_o << tsc_e:tea_bag_controller.m0_state_o
-led4_o << tsc_e:tea_bag_controller.m1_state_o
-led5_o << tsc_e:tea_bag_controller.m2_state_o
-led6_o << tsc_e:tea_bag_controller.m3_state_o
-led7_o << transmission_e:transmission.txd_o
-led8_o << ata_e:acoustic_control.snd_led_o
-snd_o << ata_e:acoustic_control.snd_o
-toa_data_txd_o << transmission_e:transmission.txd_o
+led1_o <= rb_i.DB_MAX_OUTPUT_PORT_TYPE
+led2_o <= brd_generator_e:baud_rate.sec_o
+led3_o <= tsc_e:tea_bag_controller.m0_state_o
+led4_o <= tsc_e:tea_bag_controller.m1_state_o
+led5_o <= tsc_e:tea_bag_controller.m2_state_o
+led6_o <= tsc_e:tea_bag_controller.m3_state_o
+led7_o <= transmission_e:transmission.txd_o
+led8_o <= ata_e:acoustic_control.snd_led_o
+snd_o <= ata_e:acoustic_control.snd_o
+toa_data_txd_o <= transmission_e:transmission.txd_o
 
 
 |top_level_e|brd_generator_e:baud_rate

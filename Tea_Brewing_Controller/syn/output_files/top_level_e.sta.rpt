@@ -1,5 +1,5 @@
 Timing Analyzer report for top_level_e
-Tue Dec 21 14:46:53 2021
+Sat Jan 15 22:22:14 2022
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -118,12 +118,12 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.09        ;
+; Average used               ; 1.08        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   3.2%      ;
+;     Processors 2-4         ;   2.6%      ;
 +----------------------------+-------------+
 
 
@@ -788,8 +788,8 @@ HTML report is unavailable in plain text report export.
 ; 0.960 ; tsc_e:tea_bag_controller|seconds_0_s[1]       ; ata_e:acoustic_control|et_s0_s[1] ; tsc_e:tea_bag_controller|cstate_s.process1_st ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; -0.284     ; 0.696      ;
 ; 0.972 ; tsc_e:tea_bag_controller|cstate_s.idle_st     ; ata_e:acoustic_control|et_m1_s[2] ; cp_i                                          ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.800      ; 1.802      ;
 ; 0.989 ; ata_e:acoustic_control|cstate_s.idle_st       ; ata_e:acoustic_control|et_s1_s[1] ; cp_i                                          ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.775      ; 1.794      ;
-; 0.997 ; ata_e:acoustic_control|et_m0_s[1]             ; ata_e:acoustic_control|et_m0_s[2] ; ata_e:acoustic_control|cstate_s.result_st     ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.046      ; 1.043      ;
 ; 0.997 ; ata_e:acoustic_control|cstate_s.comb01_st     ; ata_e:acoustic_control|et_m1_s[3] ; cp_i                                          ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.913      ; 1.940      ;
+; 0.997 ; ata_e:acoustic_control|et_m0_s[1]             ; ata_e:acoustic_control|et_m0_s[2] ; ata_e:acoustic_control|cstate_s.result_st     ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.046      ; 1.043      ;
 ; 1.000 ; tsc_e:tea_bag_controller|cstate_s.temp_st     ; ata_e:acoustic_control|et_m1_s[0] ; cp_i                                          ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.859      ; 1.889      ;
 ; 1.005 ; ata_e:acoustic_control|et_m0_s[1]             ; ata_e:acoustic_control|et_m0_s[1] ; ata_e:acoustic_control|cstate_s.result_st     ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.043      ; 1.048      ;
 ; 1.008 ; tsc_e:tea_bag_controller|cstate_s.idle_st     ; ata_e:acoustic_control|et_m1_s[3] ; cp_i                                          ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.918      ; 1.956      ;
@@ -1370,11 +1370,11 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 ; 0.311 ; brd_generator_e:baud_rate|c10ec:C_1MHz_o|state_s[0]           ; brd_generator_e:baud_rate|c10ec:C_1MHz_o|state_s[0]         ; cp_i         ; cp_i        ; 0.000        ; 0.056      ; 0.511      ;
 ; 0.311 ; brd_generator_e:baud_rate|c10ec:C_100Hz|state_s[0]            ; brd_generator_e:baud_rate|c10ec:C_100Hz|state_s[0]          ; cp_i         ; cp_i        ; 0.000        ; 0.056      ; 0.511      ;
 ; 0.311 ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[3]             ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[3]           ; cp_i         ; cp_i        ; 0.000        ; 0.056      ; 0.511      ;
-; 0.311 ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[2]             ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[2]           ; cp_i         ; cp_i        ; 0.000        ; 0.056      ; 0.511      ;
+; 0.311 ; brd_generator_e:baud_rate|c10ec:C_1MHz_o|state_s[2]           ; brd_generator_e:baud_rate|c10ec:C_1MHz_o|state_s[2]         ; cp_i         ; cp_i        ; 0.000        ; 0.056      ; 0.511      ;
 ; 0.311 ; brd_generator_e:baud_rate|c10ec:C_1Hz|state_s[3]              ; brd_generator_e:baud_rate|c10ec:C_1Hz|state_s[3]            ; cp_i         ; cp_i        ; 0.000        ; 0.056      ; 0.511      ;
 ; 0.311 ; brd_generator_e:baud_rate|c10ec:C_100KHz|state_s[2]           ; brd_generator_e:baud_rate|c10ec:C_100KHz|state_s[2]         ; cp_i         ; cp_i        ; 0.000        ; 0.056      ; 0.511      ;
-; 0.311 ; brd_generator_e:baud_rate|c10ec:C_1MHz_o|state_s[2]           ; brd_generator_e:baud_rate|c10ec:C_1MHz_o|state_s[2]         ; cp_i         ; cp_i        ; 0.000        ; 0.056      ; 0.511      ;
 ; 0.311 ; track_timer_e:timer|counter_60_e:minute_unit|cstate_s.s59     ; track_timer_e:timer|counter_60_e:minute_unit|cstate_s.s59   ; cp_i         ; cp_i        ; 0.000        ; 0.056      ; 0.511      ;
+; 0.311 ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[2]             ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[2]           ; cp_i         ; cp_i        ; 0.000        ; 0.056      ; 0.511      ;
 ; 0.311 ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[1]             ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[1]           ; cp_i         ; cp_i        ; 0.000        ; 0.056      ; 0.511      ;
 ; 0.311 ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[0]             ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[0]           ; cp_i         ; cp_i        ; 0.000        ; 0.056      ; 0.511      ;
 ; 0.311 ; brd_generator_e:baud_rate|c10ec:C_10KHz|state_s[2]            ; brd_generator_e:baud_rate|c10ec:C_10KHz|state_s[2]          ; cp_i         ; cp_i        ; 0.000        ; 0.056      ; 0.511      ;
@@ -2134,12 +2134,12 @@ No synchronizer chains to report.
 ; 0.187 ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[3]             ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[3]           ; cp_i                                      ; cp_i        ; 0.000        ; 0.036      ; 0.307      ;
 ; 0.187 ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[1]             ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[1]           ; cp_i                                      ; cp_i        ; 0.000        ; 0.036      ; 0.307      ;
 ; 0.187 ; debouncer_e:sensor_filter|state_s[2]                          ; debouncer_e:sensor_filter|state_s[2]                        ; cp_i                                      ; cp_i        ; 0.000        ; 0.036      ; 0.307      ;
-; 0.187 ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[2]             ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[2]           ; cp_i                                      ; cp_i        ; 0.000        ; 0.036      ; 0.307      ;
 ; 0.187 ; brd_generator_e:baud_rate|c10ec:C_1MHz_o|state_s[2]           ; brd_generator_e:baud_rate|c10ec:C_1MHz_o|state_s[2]         ; cp_i                                      ; cp_i        ; 0.000        ; 0.036      ; 0.307      ;
+; 0.187 ; brd_generator_e:baud_rate|c10ec:C_1Hz|state_s[3]              ; brd_generator_e:baud_rate|c10ec:C_1Hz|state_s[3]            ; cp_i                                      ; cp_i        ; 0.000        ; 0.036      ; 0.307      ;
 ; 0.187 ; debouncer_e:sensor_filter|state_s[0]                          ; debouncer_e:sensor_filter|state_s[0]                        ; cp_i                                      ; cp_i        ; 0.000        ; 0.036      ; 0.307      ;
 ; 0.187 ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[0]             ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[0]           ; cp_i                                      ; cp_i        ; 0.000        ; 0.036      ; 0.307      ;
 ; 0.187 ; brd_generator_e:baud_rate|c10ec:C_100KHz|state_s[2]           ; brd_generator_e:baud_rate|c10ec:C_100KHz|state_s[2]         ; cp_i                                      ; cp_i        ; 0.000        ; 0.036      ; 0.307      ;
-; 0.187 ; brd_generator_e:baud_rate|c10ec:C_1Hz|state_s[3]              ; brd_generator_e:baud_rate|c10ec:C_1Hz|state_s[3]            ; cp_i                                      ; cp_i        ; 0.000        ; 0.036      ; 0.307      ;
+; 0.187 ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[2]             ; brd_generator_e:baud_rate|c10ec:C_1KHz|state_s[2]           ; cp_i                                      ; cp_i        ; 0.000        ; 0.036      ; 0.307      ;
 ; 0.187 ; debouncer_e:sensor_filter|state_s[3]                          ; debouncer_e:sensor_filter|state_s[3]                        ; cp_i                                      ; cp_i        ; 0.000        ; 0.036      ; 0.307      ;
 ; 0.187 ; brd_generator_e:baud_rate|c10ec:C_10KHz|state_s[2]            ; brd_generator_e:baud_rate|c10ec:C_10KHz|state_s[2]          ; cp_i                                      ; cp_i        ; 0.000        ; 0.036      ; 0.307      ;
 ; 0.193 ; transmission_e:transmission|uart_ctrl_e:uu3|cstate_s.bit_1    ; transmission_e:transmission|uart_ctrl_e:uu3|cstate_s.bit_2  ; cp_i                                      ; cp_i        ; 0.000        ; 0.036      ; 0.313      ;
@@ -2370,8 +2370,8 @@ No synchronizer chains to report.
 ; 0.673 ; ata_e:acoustic_control|cstate_s.idle_st       ; ata_e:acoustic_control|et_h0_s[0] ; cp_i                                          ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.442      ; 1.145      ;
 ; 0.675 ; ata_e:acoustic_control|cstate_s.idle_st       ; ata_e:acoustic_control|et_h1_s[0] ; cp_i                                          ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.440      ; 1.145      ;
 ; 0.679 ; tsc_e:tea_bag_controller|minutes_1_s[1]       ; ata_e:acoustic_control|et_m1_s[1] ; tsc_e:tea_bag_controller|cstate_s.process1_st ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.024      ; 0.723      ;
-; 0.687 ; tsc_e:tea_bag_controller|cstate_s.temp_st     ; ata_e:acoustic_control|et_s1_s[2] ; cp_i                                          ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.439      ; 1.156      ;
 ; 0.687 ; ata_e:acoustic_control|cstate_s.comb01_st     ; ata_e:acoustic_control|et_m1_s[1] ; cp_i                                          ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.499      ; 1.216      ;
+; 0.687 ; tsc_e:tea_bag_controller|cstate_s.temp_st     ; ata_e:acoustic_control|et_s1_s[2] ; cp_i                                          ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.439      ; 1.156      ;
 ; 0.687 ; ata_e:acoustic_control|cstate_s.comb10_st     ; ata_e:acoustic_control|et_m1_s[2] ; cp_i                                          ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.440      ; 1.157      ;
 ; 0.688 ; tsc_e:tea_bag_controller|cstate_s.idle_st     ; ata_e:acoustic_control|et_s0_s[1] ; cp_i                                          ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.440      ; 1.158      ;
 ; 0.689 ; ata_e:acoustic_control|cstate_s.comb11_st     ; ata_e:acoustic_control|et_m1_s[1] ; cp_i                                          ; ata_e:acoustic_control|cstate_s.result_st ; 0.000        ; 0.499      ; 1.218      ;
@@ -2725,7 +2725,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Tue Dec 21 14:46:50 2021
+    Info: Processing started: Sat Jan 15 22:22:10 2022
 Info: Command: quartus_sta Control_Top_Level -c top_level_e
 Info: qsta_default_script.tcl version: #2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -2836,9 +2836,9 @@ Info (332146): Worst-case minimum pulse width slack is -3.000
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 4768 megabytes
-    Info: Processing ended: Tue Dec 21 14:46:53 2021
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 4769 megabytes
+    Info: Processing ended: Sat Jan 15 22:22:14 2022
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:04
 
 

@@ -1,5 +1,5 @@
 Flow report for top_level_e
-Tue Dec 21 14:47:00 2021
+Sat Jan 15 22:22:14 2022
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Dec 21 14:47:00 2021       ;
+; Flow Status                        ; Successful - Sat Jan 15 22:22:08 2022       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; top_level_e                                 ;
 ; Top-level Entity Name              ; top_level_e                                 ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/21/2021 14:46:20 ;
+; Start date & time ; 01/15/2022 22:21:19 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; top_level_e         ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 414260460256.164009437914728           ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 57487820147584.164228167812396         ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
 ; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -88,11 +88,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 4803 MB             ; 00:00:37                           ;
-; Fitter               ; 00:00:07     ; 1.1                     ; 5437 MB             ; 00:00:10                           ;
-; Assembler            ; 00:00:01     ; 1.0                     ; 4672 MB             ; 00:00:01                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.1                     ; 4768 MB             ; 00:00:03                           ;
-; Total                ; 00:00:29     ; --                      ; --                  ; 00:00:51                           ;
+; Analysis & Synthesis ; 00:00:26     ; 1.0                     ; 4801 MB             ; 00:00:42                           ;
+; Fitter               ; 00:00:19     ; 1.1                     ; 5437 MB             ; 00:00:18                           ;
+; Assembler            ; 00:00:02     ; 1.0                     ; 4670 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.1                     ; 4769 MB             ; 00:00:04                           ;
+; Total                ; 00:00:51     ; --                      ; --                  ; 00:01:06                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -115,7 +115,6 @@ quartus_map --read_settings_files=on --write_settings_files=off Control_Top_Leve
 quartus_fit --read_settings_files=off --write_settings_files=off Control_Top_Level -c top_level_e
 quartus_asm --read_settings_files=off --write_settings_files=off Control_Top_Level -c top_level_e
 quartus_sta Control_Top_Level -c top_level_e
-quartus_eda --read_settings_files=on --write_settings_files=off Control_Top_Level -c top_level_e
 
 
 
